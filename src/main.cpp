@@ -35,7 +35,7 @@ int main(){
 
 
   //parameters for glfwWindowHint(width, height, window name, full screen, unimportant)
-  GLFWwindow* window = glfwCreateWindow(800, 800, "Praise The Omnissiah", NULL, NULL);
+  GLFWwindow* window = glfwCreateWindow(800, 800, "Triangle", NULL, NULL);
 
   //error check if the window fails to create
   if(window == NULL){
